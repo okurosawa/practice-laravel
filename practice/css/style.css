@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: impact, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 20px;
+    padding: 40px;
+    border: 4px dashed orange;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li {
+   color: darkblue; 
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sns_icon {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.red_text {
+    color: red;
+}
+
+.profile_container {
+    max-width: 960px;
+}
+
+.profile_image_container {
+    text-align: center;
+}
+
+.profile_family_table {
+    margin: 0 auto;
+}
+
+.profile_family_table,
+.profile_family_table th,
+.profile_family_table td {
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+.profile_family_table th,
+.profile_family_table td {
+    padding: 5px 10px;
+}

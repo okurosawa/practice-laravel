@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/formstyle.css">
+</head>
+<body>
+    <div class="form_container">
+        <div class="form_header">
+            <h1>Pizza Order Form</h1>
+        </div>
+
+        <form class="form_body" action="">
+            <div class="input_area name_area">
+                <label for="name">Name:</label>
+                <p><input type="text" name="name" id="name" placeholder="Place your name here"></p>
+            </div>
+
+            <div class="input_area topping_area">
+                <label>Pizza Topping:</label>
+                <ul class="pizza_topping">
+                    <li>
+                        <input id="supreme" type="radio" name="pizza_topping">
+                        <label for="supreme">Supreme</label>
+                    </li>
+                    <li>
+                        <input id="vegetarian" type="radio" name="pizza_topping">
+                        <label for="vegetarian">Vegetarian</label>
+                    </li>
+                    <li>
+                        <input id="hawaiian" type="radio" name="pizza_topping">
+                        <label for="hawaiian">Hawaiian</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="input_area sauce_area">
+                <label>Pizza Sauce:</label>
+                <select name="pizza_sauce">
+                    <option value="1" selected>Tomato</option>
+                    <option value="2">Cheese</option>
+                    <option value="3">Vegetable</option>
+                </select>
+            </div>
+
+            <div class="input_area optional_area">
+                <label>Optional Extras:</label>
+                <ul class="pizza_optional">
+                    <li>
+                        <input id="extra_cheese" type="checkbox" name="optional_extras" value="1">
+                        <label for="extra_cheese">Extra Cheese</label>
+                    </li>
+                    <li>
+                        <input id="gluten_free" type="checkbox" name="optional_extras" value="2">
+                        <label for="gluten_free">Gluten Free base</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="input_area instructions_area">
+                <label for="delivery_instructions">Delivery Instructions:</label>
+                <div class="textarea_container">
+                    <textarea id="delivery_instructions" name="delivery_instructions"></textarea>
+                </div>
+            </div>
+
+            <div class="input_area submit_area">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

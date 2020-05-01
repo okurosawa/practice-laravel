@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/activity_0413_1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="./index.html" class="navbar-brand">AwesomeBlog</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blog</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Hobby</a>
+                            <a href="#" class="dropdown-item">Food</a>
+                            <a href="#" class="dropdown-item">Tech</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <form action="" class="form-inline">
+                            <input type="text" class="form-control mr-sm-2" name="search_word" placeholder="Search">
+                            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+    
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">
+                            <span class="avatar collapse navbar-collapse">
+                                <img src="../images/profilephoto.jpg" class="rounded-circle" width="35" height="35" alt="profile_image">
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="./about.html" class="dropdown-item">About me</a>
+                            <a href="./contact.html" class="dropdown-item">Contact Form</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-3">
+        <h1 class="display-4 text-muted text-center pb-1">Contact Form</h1>
+        <p class="text-center text-muted pb-1">
+            Please give me some comments.
+        </p>
+        <hr class="my-2">
+
+        <form>
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" class="form-control" type="text" placeholder="First Name">
+                </div>
+
+                <div class="form-group col-lg-6">
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" class="form-control" type="text" placeholder="First Name">
+                </div>
+
+                <div class="form-group col-lg-12">
+                    <label for="email_address">Email</label>
+                    <input id="email_address" class="form-control" type="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="form-group col-lg-12">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" class="form-control" name="comments" rows="10"></textarea>
+                </div>
+
+                <div class="form-group col-lg-12">
+                    <input class="form-control btn-outline-primary" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-dark">
+        <div class="container">
+            <p class="text-center text-white m-0 py-3">
+                <a href="./index.html">&copy;AwesomeBlog.</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

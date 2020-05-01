@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+img {
+    border: solid 1px #333;
+}
+
+.sample {
+    width: 960px;
+    height: 600px;
+    background-color: #F7F8F9;
+}
+
+.bg-img {
+    height: 900px;
+    background-image: url('https://dekiru.net/upload_docs/img/35641.jpg');
+    background-size: cover;
+}
