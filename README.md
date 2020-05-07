@@ -21,7 +21,7 @@ docker-compose up -d --build
 3. Enter to `app` container and run these command.
 
 ```shell
-cd elearning_app
+cd <app_name>
 composer install
 php artisan key:generate
 php artisan migrate
