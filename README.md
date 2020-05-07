@@ -1,4 +1,4 @@
-# Practice-Laravel
+# Laravel Practice
 
 ## Project setup
 
